@@ -45,7 +45,7 @@ A macOS menu bar app for instant word lookup. Select any English word in any app
 ### 1. 克隆并打开项目
 
 ```bash
-git clone https://github.com/your-username/gloss.git
+git clone https://github.com/minjuanyue/gloss.git
 cd gloss
 open Gloss.xcodeproj
 ```
