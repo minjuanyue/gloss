@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	  注意：辅助功能 API 和全局热键要求不能启用沙盒。
+	  分发时如需上架 Mac App Store，需要换用 CGEventTap 替代 Carbon 热键，
+	  并以沙盒模式重新设计权限模型。
+	-->
+	<key>com.apple.security.app-sandbox</key>
+	<false/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+</dict>
+</plist>

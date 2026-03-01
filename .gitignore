@@ -1,0 +1,22 @@
+# Xcode 编译产物
+DerivedData/
+build/
+*.o
+*.d
+
+# Xcode 用户私有配置（不同机器不同）
+xcuserdata/
+*.xcuserstate
+*.xcscheme
+!Gloss.xcodeproj/xcshareddata/xcschemes/*.xcscheme
+
+# API Keys（绝对不提交）
+apikeys.json
+**/apikeys.json
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Claude Code 内部配置
+.claude/
